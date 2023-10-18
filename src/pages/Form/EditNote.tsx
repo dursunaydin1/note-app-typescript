@@ -1,4 +1,4 @@
-import { NoteData, Tag } from "../../types";
+import { NoteData, Tag } from "../../type";
 import NoteForm from "./NoteForm";
 import { useNote } from "../NoteDetail/Layout";
 
@@ -9,7 +9,7 @@ type EditProps = {
 };
 
 const EditNote = ({ onSubmit, createTag, availableTags }: EditProps) => {
-  const note = useNote()
+  const note = useNote();
   return (
     <>
       <h1>Note'u düzenle</h1>
