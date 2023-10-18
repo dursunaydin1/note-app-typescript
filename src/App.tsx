@@ -37,7 +37,7 @@ function App() {
   // Yeni bir not oluşturan fonksiyon.
   const createNote = ({ tags, ...data }: NoteData) => {
     // Notları güncelliyoruz ve yeni notu ekliyoruz.
-    setNotes((prev: RawNote) => [
+    setNotes((prev: RawNote[]) => [
       ...prev,
       { ...data, id: uuidv4(), tagId: tags.map((tag) => tag.id) },
     ]);
