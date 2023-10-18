@@ -30,4 +30,4 @@ Bu uygulama, kullanıcılara notlarını organize etme, notlarını başlık vey
 
 ## Canlı Önizleme
 Projeyi <a href="https://note-app-typescript.netlify.app" target="_blank">buradan</a> önizleyebilirsiniz.
-<img src="screen.gif"/>
+<img src="./screen.gif"/>
